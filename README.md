@@ -1,27 +1,9 @@
 <div align="center">
 
-<!-- Animated SVG Header -->
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .title { font: 500 32px 'Segoe UI', sans-serif; fill: #0f172a; }
-      .sub { font: 400 15px 'Segoe UI', sans-serif; fill: #475569; }
-      .tag { font: 400 13px 'Segoe UI', sans-serif; }
-      .slide { animation: slideIn 0.8s ease forwards; opacity: 0; }
-      .slide2 { animation: slideIn 0.8s 0.3s ease forwards; opacity: 0; }
-      .slide3 { animation: slideIn 0.8s 0.6s ease forwards; opacity: 0; }
-      @keyframes slideIn { from { opacity:0; transform: translateY(12px); } to { opacity:1; transform: translateY(0); } }
-    </style>
-  </defs>
-  <text x="400" y="46" text-anchor="middle" class="title slide">Santosh Pujeri</text>
-  <text x="400" y="74" text-anchor="middle" class="sub slide2">Senior Backend Engineer · Java · Spring Boot · Distributed Systems · Fintech</text>
-  <text x="400" y="100" text-anchor="middle" class="sub slide3">📍 Bengaluru, India &nbsp;·&nbsp; 6+ years experience &nbsp;·&nbsp; Open to opportunities</text>
-</svg>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=185FA5&center=true&vCenter=true&width=620&lines=👋+Hi%2C+I'm+Santosh+Pujeri!;Senior+Backend+Engineer+%7C+Java+%7C+Spring+Boot;Distributed+Systems+%7C+Redis+%7C+Microservices;Building+APIs+that+handle+50K%2B+events%2Fday;Idempotency+%7C+Concurrency+%7C+System+Design;Open+to+Senior+Backend+%2F+System+Design+roles!)](https://git.io/typing-svg)
 
-<!-- Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=185FA5&center=true&vCenter=true&multiline=false&width=600&lines=Backend+Engineer+%7C+Java+%7C+Spring+Boot;Distributed+Systems+%7C+Redis+%7C+Microservices;Building+APIs+that+handle+50K%2B+events%2Fday;Idempotency+%7C+Concurrency+%7C+System+Design)](https://git.io/typing-svg)
+<br>
 
-<!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santosh-pujeri)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:16santoshpujari@gmail.com)
 [![LayoffFund](https://img.shields.io/badge/LayoffFund.com-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://layofffund.com)
@@ -39,15 +21,15 @@ public class SantoshPujeri extends BackendEngineer {
     String location     = "Bengaluru, India";
     int    experience   = 6; // years
     String currentRole  = "Senior Backend Engineer @ Appvestor";
-    
-    String[] expertise  = { "Distributed Systems", "Microservices", 
+
+    String[] expertise  = { "Distributed Systems", "Microservices",
                              "System Design (HLD/LLD)", "Idempotency",
                              "High-Concurrency APIs", "Fintech Platforms" };
-    
+
     String[] learning   = { "Advanced Distributed Systems", "Kafka", "gRPC" };
-    
+
     boolean openToWork  = true; // Senior Backend / System Design roles
-    
+
     String superpower() {
         return "Eliminating race conditions before they reach production 🔒";
     }
@@ -100,7 +82,7 @@ public class SantoshPujeri extends BackendEngineer {
 | ⚡ API Latency | Reduced p99 by **~60%** via query optimization & index redesign |
 | 🔒 Race Conditions | **Zero incidents** post Redis distributed locking implementation |
 | 🚀 CI/CD | Cut release cycle by **40%** at Appvestor |
-| 🤖 QA Automation | Eliminated **~12 hrs/week** of manual testing at Synechron |
+| 🔄 CI/CD Pipelines | Automated regression pipelines — enabled **same-day releases** on AWS |
 | 💾 DB Load | Reduced by **~60%** with Redis TTL caching strategies |
 | 📊 Data Scale | Built pipelines serving **5M+ student records** |
 
@@ -114,9 +96,9 @@ public class SantoshPujeri extends BackendEngineer {
 <summary><b>🔴 Senior Backend Engineer — Appvestor, Bengaluru (Jul 2024 – Present)</b></summary>
 <br>
 
-- Designed high-concurrency REST APIs for a mobile growth & analytics platform processing **50K+ events/day**; built idempotent service-layer logic with concurrency-safe validations that **eliminated payment inconsistency errors** in production.
-- Drove architectural decision to use **Redis distributed locking** over DB-level locks for concurrent payment workflows — zero race-condition incidents post-deployment.
-- Optimised PostgreSQL/MySQL query execution plans by analysing slow-query logs and redesigning indexes; reduced critical API **p99 latency by ~60%** and cut **CI/CD release cycle by 40%**.
+- Designed high-concurrency REST APIs processing **50K+ events/day**; built idempotent service-layer logic that **eliminated payment inconsistency errors** in production.
+- Drove architectural decision to use **Redis distributed locking** — zero race-condition incidents post-deployment.
+- Reduced critical API **p99 latency by ~60%** and cut **CI/CD release cycle by 40%**.
 
 </details>
 
@@ -124,9 +106,9 @@ public class SantoshPujeri extends BackendEngineer {
 <summary><b>🟠 Software Engineer — Synechron, Bengaluru (May 2021 – Jul 2024)</b></summary>
 <br>
 
-- Built and owned Java/Spring Boot microservices in a large-scale **financial platform handling 100K+ daily transactions**; drove API design, data-layer architecture, and service integration across 5+ distributed teams.
-- Proposed and drove adoption of **automated JUnit/Mockito regression pipelines** — eliminated ~12 hrs/week of manual QA effort and enabled same-day releases on AWS CI/CD infrastructure.
-- Designed **Redis caching strategies** on high-read financial endpoints — TTL-based invalidation reduced DB load by ~60%; resolved N+1 query patterns improving batch throughput by ~45%.
+- Built Java/Spring Boot microservices in a **financial platform handling 100K+ daily transactions** across 5+ distributed teams.
+- Drove adoption of **automated JUnit/Mockito regression pipelines** — eliminated ~12 hrs/week of manual QA effort.
+- Redis TTL caching reduced DB load by **~60%**; resolved N+1 query patterns improving batch throughput by **~45%**.
 
 </details>
 
@@ -134,8 +116,8 @@ public class SantoshPujeri extends BackendEngineer {
 <summary><b>🟡 IT Analyst — Vedantu & BYJU'S, Bengaluru (Jul 2018 – Jun 2021)</b></summary>
 <br>
 
-- Built data validation and extraction pipelines serving **5M+ student records**; automated workflows using SQL and internal APIs, improving dataset accuracy by ~30%.
-- Standardised validation logic and data contracts across teams — reduced data discrepancy incidents by **40% quarter-on-quarter**.
+- Built data pipelines serving **5M+ student records**; improved dataset accuracy by ~30%.
+- Reduced data discrepancy incidents by **40% quarter-on-quarter**.
 
 </details>
 
@@ -146,8 +128,7 @@ public class SantoshPujeri extends BackendEngineer {
 ### 🏦 [LayoffFund](https://layofffund.com) — Production Crowdfunding Platform
 > `Java` `Spring Boot 3.2` `PostgreSQL` `JWT` `Razorpay` `AWS S3` `Docker` `Cloudflare CDN`
 
-- Architected end-to-end platform with **JWT-secured REST APIs** and idempotent Razorpay payment processing
-- **Zero duplicate charge incidents** since launch
+- **JWT-secured REST APIs** with idempotent Razorpay payment processing — **zero duplicate charges** since launch
 - Adapter Pattern enables **zero-touch Stripe migration** with no business-logic changes
 
 ---
@@ -155,28 +136,26 @@ public class SantoshPujeri extends BackendEngineer {
 ### 🎟️ [BookMyShow Clone](https://github.com/pujerisantosh/BooKMyShowProject2025) — Distributed Ticket Booking
 > `Java` `Spring Boot` `MySQL` `Redis SETNX Distributed Locking`
 
-- Solved **concurrent double-booking at scale** using Redis SETNX + TTL
-- Load tested at **500 concurrent seat-reservation requests** with zero conflicts
+- **500 concurrent seat-reservation requests** with **zero double-booking conflicts**
 
 ---
 
 ### 💳 Payment Service — Idempotent Webhook Backend
 > `Spring Boot` `PostgreSQL` `Docker` `JUnit` `Mockito` `HMAC Webhook Verification`
 
-- Idempotent APIs with **state-machine transaction handling** and HMAC-verified Stripe webhooks
-- **Replay-attack protection** · **100% JUnit/Mockito coverage** · Fully Dockerised
+- State-machine transaction handling · HMAC Stripe webhooks · **100% test coverage** · Fully Dockerised
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pujerisantosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=pujerisantosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pujerisantosh&theme=tokyonight&hide_border=true" width="48%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pujerisantosh&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pujerisantosh&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
 </div>
 
 <div align="center">
@@ -200,7 +179,7 @@ public class SantoshPujeri extends BackendEngineer {
 | Degree | Institution | Year |
 |--------|------------|------|
 | 🎓 M.S. Computer Software Engineering | Scaler Academy | 2024–2025 |
-| 🎓 B.E. Electrical, Electronics & Communications | Visvesvaraya Technological University | 2014–2018 |
+| 🎓 B.E. Electrical, Electronics & Communications | VTU Karnataka | 2014–2018 |
 
 **Scaler coursework:** DSA · SQL · LLD · HLD · Distributed Systems · Advanced Backend Engineering
 
@@ -213,10 +192,6 @@ public class SantoshPujeri extends BackendEngineer {
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santosh-pujeri)
 &nbsp;
 [![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:16santoshpujari@gmail.com)
-
-<br>
-
-![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 <br>
 
