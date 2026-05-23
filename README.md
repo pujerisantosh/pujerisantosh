@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=185FA5&center=true&vCenter=true&width=620&lines=👋+Hi%2C+I'm+Santosh+Pujeri!;Senior+Backend+Engineer+%7C+Java+%7C+Spring+Boot;Distributed+Systems+%7C+Redis+%7C+Microservices;Building+APIs+that+handle+50K%2B+events%2Fday;Idempotency+%7C+Concurrency+%7C+System+Design;Open+to+Senior+Backend+%2F+System+Design+roles!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=185FA5&center=true&vCenter=true&width=620&lines=👋+Hi%2C+I'm+Santosh+Pujeri!;Senior+Backend+Engineer+%7C+Java+%7C+Spring+Boot;Distributed+Systems+%7C+Redis+%7C+Kafka+%7C+Microservices;Building+APIs+that+handle+50K%2B+events%2Fday;Idempotency+%7C+Concurrency+%7C+System+Design;Open+to+Senior+Backend+%2F+System+Design+roles!)](https://git.io/typing-svg)
 
 <br>
 
@@ -26,7 +26,7 @@ public class SantoshPujeri extends BackendEngineer {
                              "System Design (HLD/LLD)", "Idempotency",
                              "High-Concurrency APIs", "Fintech Platforms" };
 
-    String[] learning   = { "Advanced Distributed Systems", "Kafka", "gRPC" };
+    String[] learning   = { "Kafka", "gRPC", "Resilience4j" };
 
     boolean openToWork  = true; // Senior Backend / System Design roles
 
@@ -59,6 +59,10 @@ public class SantoshPujeri extends BackendEngineer {
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
+**Messaging & Streaming**
+
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -81,10 +85,10 @@ public class SantoshPujeri extends BackendEngineer {
 |--------|------------|
 | ⚡ API Latency | Reduced p99 by **~60%** via query optimization & index redesign |
 | 🔒 Race Conditions | **Zero incidents** post Redis distributed locking implementation |
-| 🚀 CI/CD | Cut release cycle by **40%** at Appvestor |
-| 🔄 CI/CD Pipelines | Automated regression pipelines — enabled **same-day releases** on AWS |
+| 🚀 Release Velocity | Cut CI/CD release cycle by **40%** at Appvestor |
 | 💾 DB Load | Reduced by **~60%** with Redis TTL caching strategies |
 | 📊 Data Scale | Built pipelines serving **5M+ student records** |
+| 💳 Payment Reliability | **Zero duplicate charges** in production since LayoffFund launch |
 
 </div>
 
@@ -97,8 +101,8 @@ public class SantoshPujeri extends BackendEngineer {
 <br>
 
 - Designed high-concurrency REST APIs processing **50K+ events/day**; built idempotent service-layer logic that **eliminated payment inconsistency errors** in production.
-- Drove architectural decision to use **Redis distributed locking** — zero race-condition incidents post-deployment.
-- Reduced critical API **p99 latency by ~60%** and cut **CI/CD release cycle by 40%**.
+- Drove architectural decision to use **Redis distributed locking** over DB-level locks — zero race-condition incidents post-deployment.
+- Reduced critical API **p99 latency by ~60%** and cut **CI/CD release cycle by 40%** via query plan analysis and index redesign.
 
 </details>
 
@@ -107,7 +111,7 @@ public class SantoshPujeri extends BackendEngineer {
 <br>
 
 - Built Java/Spring Boot microservices in a **financial platform handling 100K+ daily transactions** across 5+ distributed teams.
-- Drove adoption of **automated JUnit/Mockito regression pipelines** — eliminated ~12 hrs/week of manual QA effort.
+- Designed and owned **automated regression pipelines** on AWS — enabled same-day production releases.
 - Redis TTL caching reduced DB load by **~60%**; resolved N+1 query patterns improving batch throughput by **~45%**.
 
 </details>
@@ -133,10 +137,20 @@ public class SantoshPujeri extends BackendEngineer {
 
 ---
 
-### 🎟️ [BookMyShow Clone](https://github.com/pujerisantosh/BooKMyShowProject2025) — Distributed Ticket Booking
-> `Java` `Spring Boot` `MySQL` `Redis SETNX Distributed Locking`
+### 🎟️ [BookMyShow Backend](https://github.com/pujerisantosh/bookmyshow-backend) — Distributed Ticket Booking System
+> `Java` `Spring Boot` `PostgreSQL` `Redis SETNX` `Kafka` `Docker`
 
-- **500 concurrent seat-reservation requests** with **zero double-booking conflicts**
+- **Redis distributed locking** prevents double-booking under 500 concurrent seat-reservation requests with zero conflicts
+- **Kafka event-driven architecture** for async booking confirmation, notifications & analytics
+- TTL-based seat expiry system handles abandoned bookings and payment failures automatically
+
+---
+
+### 🤖 [AI Workflow Platform](https://github.com/pujerisantosh/ai-workflow-platform) — Automation Backend
+> `Java` `Spring Boot` `Redis` `PostgreSQL` `AI APIs`
+
+- Backend platform integrating AI APIs with Spring Boot for workflow automation
+- Redis-backed state management for async workflow execution
 
 ---
 
